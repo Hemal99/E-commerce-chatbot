@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <div className="App"> welcome</div>;
+  return <div className="App"> chatbot</div>;
 }
 
 export default App;
