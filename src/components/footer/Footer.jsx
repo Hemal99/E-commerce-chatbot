@@ -8,27 +8,27 @@ import{
     UsersIcon,
     LinkIcon,
 } from "@heroicons/react/outline";
-import css from './footer.modules.css';
+import css from './footer.module.css';
 
  const Footer = () => {
         return(
             <div classname={css.cFooterWrapper}>
                 <hr/>
 
-                <div classname={CSS.cFooter}>
-                    <div classname={css.logo}>
+                <div className={css.cFooter}>
+
+                    <div className={css.logo}>
                         <img src = {Logo} alt=""/>
                         <span>amazon</span>
                     </div>
 
-
-                        <div className={css.block}>
+                     <div className={css.block}>
                             <div className={css.detail}>
-                                <img src={Logo} alt=""/>
+                                {/* <img src={Logo} alt=""/> */}
                                 <span>Contact Us</span>
                                 <span >
                                 <LocationMarkerIcon className={css.icon}/>
-                                <span>111 north avenue Orlando, FL 32801</span>    
+                                <span className={css.pngLine}>111 north avenue Orlando, FL 32801</span>    
                                 </span> 
 
                                 <span className={css.pngLine}>
